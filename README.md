@@ -15,7 +15,7 @@ In the next page it will show the user information which I received from google 
 1. created this app to run on linux.
 2. Create Oauth client credentials in google cloud console to get client id and client secret.
    
-## Linux(OS):
+## Steps on Linux(OS):
 1. clone the repository on your machine.
 2. Create and activate a virtual environment
 ```

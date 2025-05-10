@@ -1,7 +1,7 @@
 # Author: Hareesh Kumar Gajulapalli
 import json
 from config import config
-from flask import Flask, redirect, url_for, session, render_template, jsonify
+from flask import Flask, redirect, url_for, session, render_template
 from authlib.integrations.flask_client import OAuth
 
 app = Flask(__name__)

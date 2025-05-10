@@ -35,5 +35,7 @@ GOOGLE_CLIENT_ID=< this client id you get when you create oauth application on g
 GOOGLE_CLIENT_SECRET=< this client secret you get when you create oauth application on google cloud console ></this>
 ```
 4. Run the application to start the sever on https://127.0.0.1:5000
-``` flask run ``` 
+```
+flask run
+``` 
 6. open the above url in your browser when you can click on login button and see the information returned from google.

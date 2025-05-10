@@ -17,8 +17,16 @@ In the next page it will show the user information which I received from google 
    
 ## Linux(OS):
 1. clone the repository on your machine.
-2. Install Python depedencies  - < TODO on what dependensies to be installed >
-3. create a .env file inside the repository to add these values
+2. Create and activate a virtual environment
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+3. Install Python depedencies
+```
+pip install -r requirements.txt
+``` 
+6. Set up environment variables by creating a .env file inside root of the repository to add these values.
 
 ```
 FLASK_APP=app.py
@@ -26,5 +34,6 @@ SECRET_KEY=< generate random string with 16 minimum characters, its a secret so 
 GOOGLE_CLIENT_ID=< this client id you get when you create oauth application on google cloud console >
 GOOGLE_CLIENT_SECRET=< this client secret you get when you create oauth application on google cloud console ></this>
 ```
-4. run command ``` flask run ``` to start the sever on https://127.0.0.1:5000
-5. open the above url in your browser when you can click on login button and see the information returned from google.
+4. Run the application to start the sever on https://127.0.0.1:5000
+``` flask run ``` 
+6. open the above url in your browser when you can click on login button and see the information returned from google.
